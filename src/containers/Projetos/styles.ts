@@ -6,6 +6,10 @@ export const Lista = styled.ul`
   column-gap: 36px;
   row-gap: 40px;
 
+  li:nth-last-child(1) {
+    margin-bottom: 80px;
+  }
+
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     column-gap: 0;
