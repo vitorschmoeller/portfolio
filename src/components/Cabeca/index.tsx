@@ -1,11 +1,13 @@
 import styled from 'styled-components'
 
 const Cabeca = styled.div`
+  padding-top: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   h1 {
+    color: ${(props) => props.theme.corPrincipal};
     letter-spacing: 2px;
     margin-left: 14px;
   }
@@ -20,6 +22,7 @@ const Cabeca = styled.div`
 
   a {
     margin-right: 8px;
+    color: ${(props) => props.theme.corPrincipal};
   }
 
   @media (max-width: 768px) {
